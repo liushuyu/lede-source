@@ -116,6 +116,15 @@ define Device/dir-810l
 endef
 TARGET_DEVICES += dir-810l
 
+define Device/dir-819
+  DTS := DIR-819
+  IMAGES += factory.bin
+  IMAGE/factory.bin := 
+  IMAGE_SIZE := 6328k
+  DEVICE_TITLE := D-Link DIR-819
+endef
+TARGET_DEVICES += dir-819
+
 define Device/e1700
   DTS := E1700
   IMAGES += factory.bin

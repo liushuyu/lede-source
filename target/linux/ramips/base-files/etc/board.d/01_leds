@@ -151,10 +151,12 @@ dir-615-h1)
 	set_wifi_led "rt2800pci-phy0::radio"
 	;;
 dir-620-d1|\
+dir-819|\
 mzk-ex300np)
 	set_wifi_led "$board:green:wifi"
 	;;
 dir-810l|\
+dir-819|\
 mzk-750dhp|\
 mzk-dp150n|\
 vr500)
